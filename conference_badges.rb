@@ -22,13 +22,11 @@ end
 def printer(array)
   badges = batch_badge_creator(array)
   assignments = assign_rooms(array)
-  for i in badges
-    puts badges[i]
+  badges.each do |i|
+    puts i
   end
 
-  for j in assignments
-    puts assignments[j]
+  assignments.each do |j|
+    puts j
   end
-
-
 end
