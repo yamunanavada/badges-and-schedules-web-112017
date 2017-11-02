@@ -29,6 +29,6 @@ def printer(array)
   for j in assignments
     puts assignments[j]
   end
-  
-  
+
+
 end
